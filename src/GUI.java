@@ -12,6 +12,9 @@ public class GUI {
 
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setTitle("Our GUI");
+        frame.pack();
+        frame.setVisible(true);
 
 
     }
